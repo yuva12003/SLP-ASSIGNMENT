@@ -12,7 +12,7 @@ def calculate_perplexity(sentence):
         perplexity = 2
     else:
         perplexity = 1
-   return perplexity
+    return perplexity
 # Streamlit UI
 st.title("Text Generation Quality")
 # Input sentence
